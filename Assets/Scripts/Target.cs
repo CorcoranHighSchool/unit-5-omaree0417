@@ -6,6 +6,7 @@ public class Target : MonoBehaviour
 {
     private Rigidbody targetRb;
 
+    public ParticleSystem explosionParticle;
     private float minSpeed = 12;
 
     private float maxSpeed = 16;
